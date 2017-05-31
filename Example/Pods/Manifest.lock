@@ -1,0 +1,35 @@
+PODS:
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (3.1.1):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.6)
+  - UIFastTabBarController (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+  - UIFastTabBarController (from `../`)
+
+EXTERNAL SOURCES:
+  UIFastTabBarController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  UIFastTabBarController: 5eed0ca548f8a01814bf9970698a2a7aea25f199
+
+PODFILE CHECKSUM: 9ec8e957e6c3c9b4056d53e2c79ba7777822c583
+
+COCOAPODS: 1.2.1

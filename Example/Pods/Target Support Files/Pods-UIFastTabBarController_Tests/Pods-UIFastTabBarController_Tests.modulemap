@@ -1,0 +1,6 @@
+framework module Pods_UIFastTabBarController_Tests {
+  umbrella header "Pods-UIFastTabBarController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
