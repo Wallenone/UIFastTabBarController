@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'UIFastTabBarController_Example' do
+  pod 'UIFastTabBarController', :path => '../'
+
+  target 'UIFastTabBarController_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
